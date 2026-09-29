@@ -1,0 +1,26 @@
+{
+  "data": "120 synthetic orders",
+  "result": {
+    "columns": [
+      "region",
+      "revenue_cents"
+    ],
+    "rows": [
+      {
+        "region": "North",
+        "revenue_cents": 50000
+      },
+      {
+        "region": "South",
+        "revenue_cents": 250000
+      },
+      {
+        "region": "West",
+        "revenue_cents": 120000
+      }
+    ],
+    "truncated": false,
+    "row_limit": 100
+  },
+  "write_attempt": "blocked"
+}
