@@ -11,6 +11,8 @@ This prototype exposes schema inspection and one-query analytics with database-e
 
 ## Demo
 
+The demo runs in the terminal with plain text output. Add `--json` to the demo CLI for the complete machine-readable result.
+
 Run `python -m analytics.demo` after installing dependencies. [Recorded output](docs/demo.json) comes from 120 deterministic synthetic orders:
 
 | Region | Revenue (cents) |
