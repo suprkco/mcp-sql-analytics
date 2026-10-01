@@ -94,4 +94,4 @@ Reproduce with `pytest -q` and `ruff check .`. These cases are a regression suit
 
 This is a local stdio prototype using synthetic data. It does not implement remote authentication, tenant isolation or row-level permissions. The allowlist is at table level: every column of those tables is readable. A local user who can replace the database or modify the process environment is trusted. Python 3.11+ adds SQLite value-size limits; Python 3.10 still enforces serialized output limits but not the same allocation limit.
 
-Next: fuzz SQL policy, isolate workers for hard memory/time limits, test additional SQLite versions, and design a separate least-privilege PostgreSQL adapter. No employer or client database is used. Code was developed with AI assistance.
+Next: fuzz SQL policy, isolate workers for hard memory/time limits, test additional SQLite versions, and design a separate least-privilege PostgreSQL adapter. No employer or client database is used. Architected and built by Kilian Codaccioni as auditable AI systems, using generative AI as a productivity multiplier, with a strict focus on evaluation, fact validation and reproducibility.
